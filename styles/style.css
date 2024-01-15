@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Work Sans;
+}
+section {
+  margin-top: 70px;
+}
+
+/************************* Header Area *************************/
+.header_area {
+  width: 100%;
+  background-image: url("../images/banner/banner3.png");
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  min-height: 550px;
+  display: flex;
+  gap: 90px;
+}
+.empty {
+  width: 40%;
+}
+.header_content {
+  width: 40%;
+  text-align: right;
+  margin-top: 120px;
+}
+.header_content h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.header_content p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.header_content input {
+  background-color: #ffffff;
+  color: #005fac;
+  border: none;
+  font-size: 16px;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.header_content input:hover {
+  color: #ffffff;
+  background-color: #005fac;
+  box-shadow: 7px 7px 7px #0137f9, inset 7px 7px 7px #0137f9;
+  transition: 0.5s;
+}
+
+/************************* Failure Area *************************/
+.failure_section {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0px 150px 0 200px;
+}
+.failure_section img {
+  width: 451px;
+  height: 500px;
+}
+.failure_content h3 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.failure_content h5 {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.failure_content h6 {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+.failure_content i {
+    color: #16D887;
+}
